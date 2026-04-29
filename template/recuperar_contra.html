@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Recuperar Contraseña{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-5 col-lg-4">
+        <div class="card shadow">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-3">Recuperar Contraseña</h2>
+                <p class="text-center text-muted mb-4">Ingrese su correo para recibir instrucciones de recuperación</p>
+
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="alert alert-info">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+                {% endwith %}
+
+                <form method="post" action="/recuperar">
+                    <div class="mb-4">
+                        <label for="correo" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" name="correo" id="correo" placeholder="tu@email.com" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Enviar Instrucciones</button>
+                </form>
+
+                <hr class="my-4">
+
+                <a href="/secion" class="btn btn-link w-100">Volver a Iniciar Sesión</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

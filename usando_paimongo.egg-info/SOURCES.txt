@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+usando_paimongo.egg-info/PKG-INFO
+usando_paimongo.egg-info/SOURCES.txt
+usando_paimongo.egg-info/dependency_links.txt
+usando_paimongo.egg-info/requires.txt
+usando_paimongo.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: usando_paimongo
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: flask>=3.1.3
+Requires-Dist: pymongo>=4.17.0
+
+NOMBRE: Ramirez Chavez Said Alejandro
+
+GRADO Y GRUPO: 4-D
+
+NUMEOR DE CONTROL: 24308060610069
+
+
+
+<img width="200" height="196" alt="image" src="https://github.com/user-attachments/assets/5219a705-1fd3-425f-8f7e-3aed70e3b03e" />
